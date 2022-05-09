@@ -1096,6 +1096,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"module-name@npm:^0.0.1-security":
+  version: 0.0.1-security
+  resolution: "module-name@npm:0.0.1-security"
+  checksum: a0dd0d3ae24ff5be1d42f3b5ac49994e55e795f99ca6173ce6ba15eaee3f559c8ac68eeba2e56c5fb9add2eccda96f36a13674ba9d6bb9fc72ec1b967876d90a
+  languageName: node
+  linkType: hard
+
 "ms@npm:2.1.2":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
@@ -1126,7 +1133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:latest":
+next@latest:
   version: 12.1.6
   resolution: "next@npm:12.1.6"
   dependencies:
@@ -1543,6 +1550,7 @@ __metadata:
     "@types/node": 17.0.4
     "@types/react": 17.0.38
     autoprefixer: ^10.4.0
+    module-name: ^0.0.1-security
     next: latest
     postcss: ^8.4.5
     prettier: ^2.5.1

@@ -27,7 +27,7 @@ const CMCTable = () => {
       console.log(e.message)
     }
   }, [getTopTenCoins])
-
+  console.log(coinData)
   return (
     <div className="font-bold text-white">
       <div className="mx-auto max-w-screen-2xl">

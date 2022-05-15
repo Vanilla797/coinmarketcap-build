@@ -7,6 +7,7 @@ export default function handler(req, res) {
         headers: {
           Accept: '*/*',
         },
+        mode: 'cors',
       }
     )
 

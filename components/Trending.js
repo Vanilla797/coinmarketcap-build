@@ -68,7 +68,7 @@ const Trending = () => {
             <Rate isIncrement={true} rate="0.53%" />
           </span>
           <p>
-            &nbsp; decrease over the last day.
+            &nbsp; decrease over the last day.&nbsp;&nbsp;
             <span className="underline">Read More</span>
           </p>
         </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Header from '../../components/header'
+import Header from '../../components/Header'
 import solana from '../../assets/solana.png'
 import Usd from '../../assets/svg/usd'
 import CMCpriceConverter from '../../components/CMCpriceConverter'

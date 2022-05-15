@@ -11,7 +11,7 @@ import avalanche from '../assets/avalanche.png'
 import bnb from '../assets/bnb.png'
 
 const CoinNameRow = ({ name, icon, clicked }) => {
-  const { openModal } = useContext(CoinMarketContext)
+  // const { openModal } = useContext(CoinMarketContext)
 
   const coinIcon = () => {
     switch (name) {
@@ -147,9 +147,7 @@ const CoinNameRow = ({ name, icon, clicked }) => {
 
       <p>
         {name === 'Bitcoin' || name === 'Ethereum' || name === 'Tether' ? (
-          <span className={styles.buyButton} onClick={() => openModal()}>
-            Buy
-          </span>
+          <span className={styles.buyButton}>Buy</span>
         ) : (
           <></>
         )}

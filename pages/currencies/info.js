@@ -3,6 +3,8 @@ import Header from '../../components/Header'
 import solana from '../../assets/solana.png'
 import Usd from '../../assets/svg/usd'
 import CMCpriceConverter from '../../components/CMCpriceConverter'
+import Graph from '../../components/Graph'
+import Chat from '../../components/Chat'
 
 const styles = {
   activeTab: `p-1 px-2 mr-2 rounded-lg bg-[#171924]`,
@@ -17,7 +19,7 @@ const styles = {
   flexCenter: `flex items-center`,
 }
 const info = () => {
-  cosnt[(coinName, setCoinName)] = useState('')
+  const [coinName, setCoinName] = useState('')
   const [coinSymbol, setCoinSymbol] = useState('')
   const [price, setPrice] = useState('')
 
@@ -59,7 +61,7 @@ const info = () => {
               </div>
             </div>
             <br />
-            {/* <Graph /> */}
+            <Graph />
             <br />
             <div className={styles.flexBetweenCenter}>
               <div className="flex">
@@ -90,7 +92,9 @@ const info = () => {
             />
           </div>
 
-          <div className="ml-5 pt-10">{/* <Chat /> */}</div>
+          <div className="ml-5 pt-10">
+            <Chat />
+          </div>
         </div>
       </main>
     </div>

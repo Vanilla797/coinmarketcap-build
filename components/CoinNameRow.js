@@ -10,6 +10,11 @@ import solana from '../assets/solana.png'
 import avalanche from '../assets/avalanche.png'
 import bnb from '../assets/bnb.png'
 
+const styles = {
+  coinNameRow: 'flex items-center',
+  buyButton: `bg-[#1A1F3A] text-[#6188FF] p-1 px-3 text-sm rounded-lg cursor-pointer hover:opacity-50`,
+}
+
 const CoinNameRow = ({ name, icon, clicked }) => {
   // const { openModal } = useContext(CoinMarketContext)
 

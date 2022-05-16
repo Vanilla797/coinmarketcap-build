@@ -4,6 +4,7 @@ import ChatCard from './ChatCard'
 import Button from './Button'
 import shiba from '../assets/shiba.png'
 import Image from 'next/image'
+import ChevronDown from '../assets/svg/chevronDown'
 
 const styles = {
   bullishLabel: `flex cursor-pointer active:bg-green-600 items-center text text-green-600 border border-green-600 h-min px-2 rounded-lg`,
